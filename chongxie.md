@@ -823,6 +823,7 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp url reject-img
 ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
 # > 美团外卖
+^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture url reject-200
 ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
 # > 小米
 ^https?+:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject-200
